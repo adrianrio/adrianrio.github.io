@@ -1,6 +1,6 @@
 /* navbar */
+
 .nav-link{
-    color: #757575;
     border-bottom: 3px solid transparent;
 }
 .nav-link:hover{
@@ -20,10 +20,15 @@
 /* body */
 body{
     background-color: #F5F5F5;
-}
 
+}
 .rioMyName{
     font-family: 'Dancing Script', cursive;
     text-align: center;
     font-size: 100px;
 }
+
+
+
+
+/* footer */
