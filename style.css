@@ -22,13 +22,16 @@
     border-color: black;
     transition: 0.5s;
 }
-
-
 .rioNavbar{
     font-family: 'Dancing Script', cursive;
     font-size: 30px;
 }
 
+.navbar-logo{
+    width: 50px;
+    height: auto;
+    padding: 8px;
+}
 
 /* body */
 body{
@@ -51,4 +54,17 @@ body{
 
 #row-footer{
     text-align: center;
+}
+
+#footerButton{
+    color: black;
+}
+
+.icon {
+    color: grey;
+}
+.icon:hover{
+    color: black;
+    /* text-decoration: underline; */
+    transition: 0.5s;
 }
