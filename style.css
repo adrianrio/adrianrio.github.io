@@ -1,9 +1,9 @@
 /* navbar */
-.nav-link{
+.navbar{
     color: #757575;
     border-bottom: 3px solid transparent;
 }
-.nav-link:hover{
+.navbar:hover{
     color: black;
     /* text-decoration: underline; */
     border-color: black;
@@ -14,7 +14,7 @@
 
 .rioNavbar{
     font-family: 'Dancing Script', cursive;
-    font-size: 25px;
+    font-size: 30px;
 }
 
 
