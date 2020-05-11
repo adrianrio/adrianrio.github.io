@@ -32,7 +32,9 @@
     height: auto;
     /* padding: 8px; */
 }
-
+.navbar-toggler{
+    border: none;
+}
 
 
 /* Title and Tagline */
