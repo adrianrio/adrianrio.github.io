@@ -24,34 +24,70 @@
 		rel="stylesheet">
 
 	<title>Adrian Rio Ristian</title>
-	<link rel="icon" href="Icon/ARRlogo1.png">
+	<link rel="icon" href="Icon/tabLogo.png">
 </head>
 
 <body>
 	<!-- Navbar -->
-	<div class="navbar navbar-expand-lg navbar-light bg-light sticky-top rioNavbar">
-		<a class="navbar-brand" href="index.html"><img src="Icon/ARRlogo2.png" class="navbar-logo">
+	<nav class="navbar navbar-expand-lg navbar-light sticky-top py-0" id="rioNavbar">
+		<a class="navbar-brand" href="index.html"><img src="Icon/navbarLogo.png" class="navbar-logo">
 		</a>
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-			aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-links"
+			aria-controls="nav-links" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 		</button>
-		<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+		<div class="collapse navbar-collapse" id="nav-links">
 			<div class="navbar-nav">
-				<a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+				<a class="nav-item nav-link" href="#">Home
+					<!-- <span class="sr-only">(current)</span> -->
+				</a>
 				<a class="nav-item nav-link" href="#">Contact</a>
 			</div>
 		</div>
-	</div>
+	</nav>
 
 	<!-- main -->
-	<div class="container">
-		<h1 class="rioMyName">Adrian Rio Ristian</h1>
-		<h5>Part-time student, full-time learner </h5>
+	<!-- tag line -->
+	<div class="tagLine">
+		<h1 id="rioMyName">Adrian Rio Ristian</h1>
+		<h5 id="rioTagLine">Part-time student, full-time learner </h5>
 	</div>
+	<br>
+	<!-- posts -->
+	<section class="container px-0 py-2 rounded-lg" id="post">
+		<div class="row align-items-center" id="verti-align">
+			<div class="col-lg-5" id="projectPost">
+				<h2 class="text-center">First Project</h2>
+				<p>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas quis quo, et quidem perferendis
+					voluptatum maiores odio incidunt natus vero asperiores sint sunt, repudiandae eveniet deserunt ea
+					repellendus doloremque facilis?
+				</p>
+			</div>
+			<div class="col-lg-5 align-items-center" id="projectPost">
+				<img class="rounded mx-auto d-block img-fluid" src="Icon/tabLogo.png" alt="">
+			</div>
+		</div>
+	</section>
+	<br>
+	<section class="container px-0 py-2 rounded-lg" id="post">
+		<div class="row align-items-center" id="verti-align">
+			<div class="col-lg-5 align-items-center" id="projectPost">
+				<img class="rounded mx-auto d-block img-fluid" src="Icon/tabLogo.png" alt="">
+			</div>
+			<div class="col-lg-5" id="projectPost">
+				<h2 class="text-center">First Project</h2>
+				<p>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas quis quo, et quidem perferendis
+					voluptatum maiores odio incidunt natus vero asperiores sint sunt, repudiandae eveniet deserunt ea
+					repellendus doloremque facilis?
+				</p>
+			</div>
+		</div>
+	</section>
 </body>
 
-
+<br>
 
 <!-- Footer -->
 <footer class="">

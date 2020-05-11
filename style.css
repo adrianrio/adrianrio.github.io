@@ -22,27 +22,56 @@
     border-color: black;
     transition: 0.5s;
 }
-.rioNavbar{
+#rioNavbar{
     font-family: 'Dancing Script', cursive;
-    font-size: 30px;
+    font-size: 2rem;
 }
 
 .navbar-logo{
-    width: 50px;
+    width: 3rem;
     height: auto;
-    padding: 8px;
+    /* padding: 8px; */
 }
+
+
+
+/* Title and Tagline */
+.tagLine{
+    text-align: center;
+}
+
+
+#rioTagLine{
+    font-family: "Nunito", sans-serif;
+    font-weight: 700;
+}
+
+#rioMyName{
+    font-family: 'Dancing Script', cursive;
+    font-size: 100px;
+}
+
+
+
+
 
 /* body */
 body{
     background-color: #F5F5F5;
+    font-family: "Nunito", sans-serif;
+}
 
+
+/* post */
+#post{
+    background-color: #383737;
+    color: #F5F5F5;
 }
-.rioMyName{
-    font-family: 'Dancing Script', cursive;
-    text-align: center;
-    font-size: 100px;
+
+#projectPost{
+    padding: 40px;
 }
+
 
 
 
